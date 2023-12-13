@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movix App</title>
+    <link rel="stylesheet" href="./css files/index.css" />
+    <link rel="stylesheet" href="./css files/hero.css" />
+    <link rel="stylesheet" href="./css files//featuredMovies.css" />
+    <link rel="stylesheet" href="./css files/exclusiveVideos.css"/>
+    <link rel="stylesheet" href="./css files//newArrival.css"/>
+    <link rel="stylesheet" href="./css files/pictures.css">
+    <link rel="stylesheet" href="./css files/footer.css">
+    <link rel="stylesheet" href="./css files/videos.css">
+  </head>
+  <body>
+    <!-- Parent Container for the navbar and hero section -->
+    <section class="globalContainer">
+      <nav class="navigation">
+        <!-- Logo Container -->
+        <div class="logoContainer">
+          <img src="./images/logo.svg" class="logoImage" alt="" />
+          <h2>Movix</h2>
+        </div>
+
+        <!-- Search Input Container -->
+        <div class="searchBar">
+          <input
+            type="text"
+            class="searchBarInput"
+            placeholder="What do you want to watch?"
+          />
+          <!-- <i class="fa-search fa-light fa-magnifying-glass"></i> -->
+          <i class="fas fa-search"></i>
+        </div>
+
+        <!-- User's name section  -->
+        <div class="user">
+          <p>Hi, $Kenechukwu</p>
+          <div class="toggleMenu">
+            <img src="./images/toggleMenu.svg" alt="" />
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <div class="heroContainer">
+        <h1 class="mainHeader">
+          John Wick 3 : <br />
+          Parabellum
+        </h1>
+
+        <blockquote>
+          <div class="IMBb">
+            <img src="./images//IMDb.svg" alt="" />
+            <p>86/100</p>
+          </div>
+          <div class="IMBb">
+            <img src="./images/orange.svg" alt="" />
+            <p>97%</p>
+          </div>
+        </blockquote>
+
+        <p class="heroParagraph">
+          John Wick is on the run after killing a member of the international
+          assassins' guild, and with a $14 million price tag on his head, he is
+          the target of hit men and women everywhere.
+        </p>
+        <div>
+          <button class="primaryButton">
+            <img src="./images/PlayButton.svg" alt="" />
+            <p>Watch Trailer</p>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Movies Section -->
+    <section class="globalFeaturedMoviesContainer">
+      <!-- Top Featured Movies Container -->
+      <div class="upperSection">
+        <h1 class="upperSectionHeader">Featured Movie</h1>
+        <button class="upperSectionButton">See more <img src="./icons//chevronRight.svg" alt="" /></button>
+      </div>
+
+      <!-- Featured Movies Card  -->
+      <div class="others">
+        <div class="othersInner">
+          <img class="banner" src="./images/stangerThings.svg" alt="" />
+          <p class="firstParagraphText">USA, 2016 - Current</p>
+          <h2>Stranger Things</h2>
+          <blockquote>
+            <div class="IMBb">
+              <img src="./images//IMDb.svg" alt="" />
+              <p class="percentageText">86/100</p>
+            </div>
+            <div class="IMBb">
+              <img src="./images/orange.svg" alt="" />
+              <p class="percentageText">97%</p>
+            </div>
+          </blockquote>
+          <p class="lastParagraphText">Action, Adventure Horrror</p>
+        </div>
+        <div class="othersInner">
+          <img src="./images//batMan.svg" alt="" />
+          <p class="firstParagraphText">USA, 2016 - Current</p>
+          <h2>Batman Begins</h2>
+          <blockquote>
+            <div class="IMBb">
+              <img src="./images//IMDb.svg" alt="" />
+              <p class="percentageText">86/100</p>
+            </div>
+            <div class="IMBb">
+              <img src="./images/orange.svg" alt="" />
+              <p class="percentageText">97%</p>
+            </div>
+          </blockquote>
+          <p class="lastParagraphText">Action, Adventure Horrror</p>
+        </div>
+        <div class="othersInner">
+          <img src="./images/spiderMan.svg" alt="" />
+          <p class="firstParagraphText">USA, 2016 - Current</p>
+          <h2>Spider-Man: into the spider verse</h2>
+          <blockquote>
+            <div class="IMBb">
+              <img src="./images//IMDb.svg" alt="" />
+              <p class="percentageText">86/100</p>
+            </div>
+            <div class="IMBb">
+              <img src="./images/orange.svg" alt="" />
+              <p class="percentageText">97%</p>
+            </div>
+          </blockquote>
+          <p class="lastParagraphText">Action, Adventure Horrror</p>
+        </div>
+        <div class="othersInner">
+          <img src="./images//dunKirk.svg" alt="" />
+          <p class="firstParagraphText">USA, 2016 - Current</p>
+          <h2>Dunkirk</h2>
+          <blockquote>
+            <div class="IMBb">
+              <img src="./images//IMDb.svg" alt="" />
+              <p class="percentageText">86/100</p>
+            </div>
+            <div class="IMBb">
+              <img src="./images/orange.svg" alt="" />
+              <p class="percentageText">97%</p>
+            </div>
+          </blockquote>
+          <p class="lastParagraphText">Action, Adventure Horrror</p>
+        </div>
+      </div>
+    </section>
+
+        <!-- New Arrival Section-->
+        <section class="NewArrivalContainer">
+          <!-- Top Featured Movies Container -->
+          <div class="upperSection">
+            <h1 class="upperSectionHeader">New Arrival</h1>
+            <button class="upperSectionButton">See more <img src="./icons//chevronRight.svg" alt="" /></button>
+          </div>
+        </section>    
+            <section class="newArrivalsGlobalContainer">
+              <div class="Cards">
+                <div class="innerCards">
+                  <img class="banner" src="./images/dune.svg" alt="" />
+                  <p class="firstParagraphText">USA, 2021 - Current</p>
+                  <h2>Dune</h2>
+                  <blockquote>
+                    <div class="IMBb">
+                      <img src="./images//IMDb.svg" alt="" />
+                      <p class="percentageText">84.0/100</p>
+                    </div>
+                    <div class="IMBb">
+                      <img src="./images/orange.svg" alt="" />
+                      <p class="percentageText">75%</p>
+                    </div>
+                  </blockquote>
+                  <p class="lastParagraphText">Action, Adventure, Drama</p>
+                </div>
+              </div> 
+        
+              <div class="Cards">
+                <div class="innerCards">
+                  <img class="banner" src="./images/No Time To Die.svg" alt="" />
+                  <p class="firstParagraphText">USA, 2021 - Current</p>
+                  <h2>No Time To Die</h2>
+                  <blockquote>
+                    <div class="IMBb">
+                      <img src="./images//IMDb.svg" alt="" />
+                      <p class="percentageText">76.0/100</p>
+                    </div>
+                    <div class="IMBb">
+                      <img src="./images/orange.svg" alt="" />
+                      <p class="percentageText">68%</p>
+                    </div>
+                  </blockquote>
+                  <p class="lastParagraphText">Action, Adventure, Thriller</p>
+                </div>
+              </div>
+        
+               <div class="Cards">
+                <div class="innerCards">
+                  <img class="banner" src="./images/Shang-chii.svg" alt="" />
+                  <p class="firstParagraphText">USA, 2021 - Current</p>
+                  <h2>Shang-Chi</h2>
+                  <blockquote>
+                    <div class="IMBb">
+                      <img src="./images//IMDb.svg" alt="" />
+                      <p class="percentageText">84.0/100</p>
+                    </div>
+                    <div class="IMBb">
+                      <img src="./images/orange.svg" alt="" />
+                      <p class="percentageText">71%</p>
+                    </div>
+                  </blockquote>
+                  <p class="lastParagraphText">Action, Adventure, Drama</p>
+                </div>
+              </div>
+        
+               <div class="Cards">
+                <div class="innerCards">
+                  <img class="banner" src="./images/Dont Breathe 2.svg" alt="" />
+                  <p class="firstParagraphText">USA, 2021 - Current</p>
+                  <h2>Don't Breathe 2</h2>
+                  <blockquote>
+                    <div class="IMBb">
+                      <img src="./images//IMDb.svg" alt="" />
+                      <p class="percentageText">61.0/100</p>
+                    </div>
+                    <div class="IMBb">
+                      <img src="./images/orange.svg" alt="" />
+                      <p class="percentageText">46%</p>
+                    </div>
+                  </blockquote>
+                  <p class="lastParagraphText">Action, Adventure, Horror</p>
+                </div>
+                </div>
+            </section>
+
+
+
+
+
+        <section class ="exclusiveVideosGlobalContainer">
+
+          <div class="upperSection">
+            <h1 class="upperSectionHeader">Exclusive Videos</h1>
+            <button class="upperSectionButton">See more <img src="./icons//chevronRight.svg" alt="" /></button>
+          </div>
+
+          <div class="innerExclusiveVideos">
+              <div class ="motion">
+               <div class="motionVideos">
+              <img class="banner" src="./images/lamb.svg" alt="" />
+              <p class="firstParagraphText">USA, 2021 - Current</p>
+              <h2>Lamb 1</h2>
+               </div>
+              </div>
+        
+
+              <div class ="motion">
+               <div class="motionVideos">
+              <img class="banner" src="./images/lamb.svg" alt="" />
+              <p class="firstParagraphText">USA, 2021 - Current</p>
+              <h2>Lamb 2</h2>
+               </div>
+              </div>
+
+              <div class ="motion">
+               <div class="motionVideos">
+              <img class="banner" src="./images/lamb.svg" alt="" />
+              <p class="firstParagraphText">USA, 2021 - Current</p>
+              <h2>Lamb 3</h2>
+             
+               </div>
+              </div>
+            </div>
+
+          </section>
+>
+          
+
+      <section class="videos">
+
+        <div class="upperSection">
+          <h1 class="upperSectionHeader">Featured Cast</h1>
+          <button class="upperSectionButton">See more <img src="./icons//chevronRight.svg" alt="" /></button>
+        </div>
+
+        <div class="pictures">
+          <div class="Cast">
+            <img class="banner" src="./images/Poster (2).svg" alt="" />
+            <h2>keanu Reeves</h2>
+           </div>
+
+            <div class="Pictures">
+              <div class="Cast">
+                <img class="banner" src="./images/Picture.svg" alt="" />
+                <h2>Ryan Reynolds</h2>
+           </div>
+          </div>
+
+
+
+                <div class="Pictures">
+                  <div class="Cast">
+                    <img class="banner" src="./images/Picture (1).svg" alt="" />
+                    <h2>Timothee Chalamet</h2>
+           </div>
+                    
+           </div>
+
+
+                    <div class="Pictures">
+                      <div class="Cast">
+                        <img class="banner" src="./images/Picture (2).svg" alt="" />
+                        <h2>Chloe Grace Moretz</h2>
+           </div>
+          </div>
+
+
+        </div>
+
+                        
+
+      </section>
+
+
+       <section class="footer">
+
+        <div class="footerSocials">
+          <!-- <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-facebook-f"></i> -->
+          <span>facebook</span>
+          <span>twitter</span>
+          <span>instagram</span>
+          <span>github</span>
+
+        </div>
+
+        <div class="footerTexts">
+          <P>Conditions of Use</P>
+          <P>Privacy & Policy</P>
+          <p>Press Room</p>
+         
+        </div>
+        
+        <div class="lastText">
+        <p>2021 Movix</p>   
+        </div>
+        
+       </section>
+
+
+    <script>
+      src="https://kit.fontawesome.com/7fda3b8bc7.js"
+      crossorigin="anonymous"
+    </script>
+  </body>
+</html>
+        
+
+
+    

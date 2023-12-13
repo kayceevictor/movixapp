@@ -1,0 +1,21 @@
+.videos{
+  padding: var(--padding-style);
+  margin: 30px auto;
+}
+
+.videos .pictures {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding:30px 0px;
+  }
+  
+  .Cast h2{
+    color: #111827;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    
+    }
+
+    

@@ -1,0 +1,106 @@
+.globalContainer {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/herobackground.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navigation {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-style);
+}
+
+/* logo container styles */
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logoImage {
+  font-size: 5px;
+}
+
+/* Search Bar Styles */
+.searchBar {
+  position: relative;
+}
+
+.searchBarInput {
+  padding: 10px 40px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  width: 450px;
+  background-color: transparent;
+}
+
+.searchBarInput::placeholder {
+  color: var(--primary-color);
+}
+
+.searchBar i {
+  position: absolute;
+  top: 25%;
+  right: 4%;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.toggleMenu {
+  background-color: var(--red-color);
+  padding: 3px;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+/* Hero Container */
+.heroContainer {
+  padding: 100px 40px;
+}
+
+.heroContainer .mainHeader {
+  font-size: 50px;
+  line-height: 3rem;
+  padding: 15px 0px;
+}
+
+blockquote {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.IMBb {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.heroParagraph {
+  max-width: 400px;
+  padding: 15px 0px;
+}
+
+.heroContainer .primaryButton {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  border: none;
+  gap: 10px;
+  border-radius: 5px;
+  color: var(--primary-color);
+  background-color: var(--red-color);
+  cursor: pointer;
+}

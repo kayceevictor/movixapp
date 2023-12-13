@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --red-color: #be123c;
+  --padding-style: 10px 50px;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  background-color: var(--primary-color);
+  color: var(--primary-color);
+  overflow-x : hidden;
+}
+
+/* styling for the reusable upper section */
+.upperSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.upperSectionHeader {
+  letter-spacing: -1px;
+  color: var(--secondary-color);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.upperSectionButton {
+  display: flex;
+  align-items: center;
+  color: var(--red-color);
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  background-color: transparent;
+  border: none;
+}

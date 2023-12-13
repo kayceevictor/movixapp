@@ -1,0 +1,10 @@
+.exclusiveVideosGlobalContainer  {
+    padding: var(--padding-style);
+    }
+    
+
+ .innerExclusiveVideos {
+    display: flex;
+    align-items: center;
+    gap: 50px; 
+}
