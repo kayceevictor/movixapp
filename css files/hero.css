@@ -29,6 +29,7 @@
 /* Search Bar Styles */
 .searchBar {
   position: relative;
+  padding: 0px 10px;
 }
 
 .searchBarInput {
@@ -103,4 +104,27 @@ blockquote {
   color: var(--primary-color);
   background-color: var(--red-color);
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .heroContainer {
+    padding: 100px 30px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .navigationMobileInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--small-screen-padding);
+  }
+}
+
+@media (min-width: 768px) {
+  .navigationMobile {
+    display: none;
+  }
 }

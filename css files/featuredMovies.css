@@ -54,3 +54,12 @@
   line-height: 0.75rem; /* 100% */
 }
 
+@media (max-width: 768px) {
+  .globalFeaturedMoviesContainer {
+    padding: var(--small-screen-padding);
+  }
+
+  .globalFeaturedMoviesContainer .others {
+    flex-direction: column;
+  }
+}
